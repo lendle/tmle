@@ -37,14 +37,15 @@
 }
 \value{
   \item{EY1}{Population mean outcome estimate, variance,
-  p-value, 95% confidence interval (missingness only, no
+  p-value, 95\% confidence interval (missingness only, no
   treatment assingment), or \code{NULL}}
   \item{ATE}{additive treatment effect estimate, variance,
-  p-value, 95% confidence interval, or \code{NULL}}
-  \item{RR}{relative risk estimate, p-value, 95% confidence
-  interval, log(RR), variance(log(RR)), or \code{NULL}}
-  \item{OR}{odds ratio estimate, p-value, 95% confidence
-  interval, log(OR), variance(log(OR)), or \code{NULL}}
+  p-value, 95\% confidence interval, or \code{NULL}}
+  \item{RR}{relative risk estimate, p-value, 95\%
+  confidence interval, log(RR), variance(log(RR)), or
+  \code{NULL}} \item{OR}{odds ratio estimate, p-value, 95\%
+  confidence interval, log(OR), variance(log(OR)), or
+  \code{NULL}}
 }
 \description{
   An internal function called by the \code{tmle} function
@@ -53,7 +54,7 @@
   When observations are in treatment and control groups,
   estimates the additive treatment effect, and if the
   outcome is binary, also the relative risk and odds ratio
-  parameters.  P-values and 95% confidence intervals are
+  parameters.  P-values and 95\% confidence intervals are
   also calculated (on the log scale for RR and OR).
 }
 \author{

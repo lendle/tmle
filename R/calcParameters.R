@@ -27,7 +27,7 @@
 ##' population mean effect when there is missingness in the data, but no
 ##' treatment assignment.  When observations are in treatment and control
 ##' groups, estimates the additive treatment effect, and if the outcome is
-##' binary, also the relative risk and odds ratio parameters.  P-values and 95%
+##' binary, also the relative risk and odds ratio parameters.  P-values and 95\%
 ##' confidence intervals are also calculated (on the log scale for RR and OR).
 ##' 
 ##' 
@@ -46,12 +46,12 @@
 ##' @param family family specification for regressions, generally
 ##' \sQuote{gaussian} for continuous oucomes, \sQuote{binomial} for binary
 ##' outcomes
-##' @return \item{EY1}{Population mean outcome estimate, variance, p-value, 95%
+##' @return \item{EY1}{Population mean outcome estimate, variance, p-value, 95\%
 ##' confidence interval (missingness only, no treatment assingment), or
 ##' \code{NULL}} \item{ATE}{additive treatment effect estimate, variance,
-##' p-value, 95% confidence interval, or \code{NULL}} \item{RR}{relative risk
-##' estimate, p-value, 95% confidence interval, log(RR), variance(log(RR)), or
-##' \code{NULL}} \item{OR}{odds ratio estimate, p-value, 95% confidence
+##' p-value, 95\% confidence interval, or \code{NULL}} \item{RR}{relative risk
+##' estimate, p-value, 95\% confidence interval, log(RR), variance(log(RR)), or
+##' \code{NULL}} \item{OR}{odds ratio estimate, p-value, 95\% confidence
 ##' interval, log(OR), variance(log(OR)), or \code{NULL}}
 ##' @author Susan Gruber
 ##' @seealso \code{\link{tmle}}, \code{\link{estimateQ}},
