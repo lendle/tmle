@@ -6,8 +6,7 @@ Version: 1.1.1
 Date: 2011-09-28
 Author: Susan Gruber, in collaboration with Mark van der Laan
 Maintainer: Susan Gruber <sgruber@hsph.harvard.edu>
-Suggests:
-    DSA,
+Enhances: DSA,
     SuperLearner (< 2.0)
 Description: tmle implements targeted maximum likelihood estimation,
     first described in van der Laan and Rubin, 2006 (Targeted
