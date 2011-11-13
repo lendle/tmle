@@ -1,2 +1,4 @@
-##
-exportPattern("^[^\\\\.]")
+export(calcParameters)
+export(estimateG)
+export(estimateQ)
+export(summary.tmle)
