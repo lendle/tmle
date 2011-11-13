@@ -523,7 +523,8 @@ print.summary.tmle.list <- function(x,...) {
 ##'   result4 <- tmle(Y, A, W, Z, Delta = Delta, pDelta1= pDelta1, 
 ##'                   Qform = Y ~ 1, g.SL.library = "SL.glm") 
 ##'   result4
-##' 
+##'
+##' @export
 tmle <- function(Y,A,W,Z=NULL, Delta=rep(1,length(Y)),  
 				Q=NULL, Q.Z1=NULL, Qform=NULL, Qbounds=NULL, 
 				Q.SL.library=NULL, cvQinit=FALSE,
